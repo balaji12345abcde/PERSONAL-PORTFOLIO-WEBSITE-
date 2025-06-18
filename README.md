@@ -1,10 +1,11 @@
 # PERSONAL-PORTFOLIO-WEBSITE-
 
+
 ## 👨‍💻 Description
 
 This project is a personal portfolio website created as part of Task 3 of the CODTECH Frontend Internship program. It showcases my skills, projects, and contact information in a simple, clean, and responsive design.
 ##Output
-
+![Image](https://github.com/user-attachments/assets/2660ce66-1c1a-4f74-a45c-62d6d94d06b6)
 ## 🧰 Tech Stack
 
 - HTML5
