@@ -1,55 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Balaji | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Balaji R | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 
-  <!-- Navigation bar -->
-  <nav>
-    <div class="logo">Balaji</div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container">
+      <h1>Balaji R</h1>
+      <p>Frontend Developer Intern</p>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <!-- Home section -->
+  <!-- Home Section -->
   <section id="home">
-    <h1>Hi, I'm Balaji</h1>
-    <p>Frontend Developer Intern at CODTECH</p>
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>I’m a Computer Engineering student passionate about frontend development and UI design.</p>
+    </div>
   </section>
 
-  <!-- About section -->
+  <!-- About Section -->
   <section id="about">
-    <h2>About Me</h2>
-    <p>I'm a passionate computer engineering student with strong interest in building responsive and user-friendly interfaces using HTML, CSS, and JavaScript.</p>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I’m Balaji, a frontend intern at CODTECH. I specialize in creating responsive, interactive websites using HTML, CSS, and JavaScript. I’m constantly learning and love building creative UI projects.</p>
+    </div>
   </section>
 
-  <!-- Projects section -->
+  <!-- Projects Section -->
   <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Real-Time Chat App</h3>
-      <p>A simple chat application using React and Socket.IO.</p>
-    </div>
-    <div class="project-card">
-      <h3>E-learning Platform UI</h3>
-      <p>A multi-page styled interface to browse and track courses.</p>
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Real-Time Chat App</h3>
+          <p>Built using React and Socket.IO for live communication.</p>
+        </div>
+        <div class="project-card">
+          <h3>E-Learning Platform UI</h3>
+          <p>Designed a responsive platform interface with course listings and video player.</p>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>This clean and responsive personal portfolio site.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Contact section -->
+  <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: yourmail@example.com</p>
-    <p>GitHub: github.com/yourgithub</p>
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Balaji R | CODTECH Internship</p>
+    </div>
+  </footer>
 
 </body>
 </html>
